@@ -88,3 +88,5 @@ C:\Users\DELL\Desktop\API\backend\src\API\lexico\obj\Debug\net8.0\refint\Lexico.
 C:\Users\DELL\Desktop\API\backend\src\API\lexico\obj\Debug\net8.0\Lexico.API.pdb
 C:\Users\DELL\Desktop\API\backend\src\API\lexico\obj\Debug\net8.0\Lexico.API.genruntimeconfig.cache
 C:\Users\DELL\Desktop\API\backend\src\API\lexico\obj\Debug\net8.0\ref\Lexico.API.dll
+C:\Users\DELL\Desktop\API\backend\src\API\lexico\bin\Debug\net8.0\appsettings.Production.json
+C:\Users\DELL\Desktop\API\backend\src\API\lexico\obj\Debug\net8.0\Lexico.API.sourcelink.json

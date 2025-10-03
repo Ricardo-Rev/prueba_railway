@@ -32,3 +32,4 @@ C:\Users\DELL\Desktop\API\backend\src\Infrastructure\lexico\obj\Debug\net8.0\Lex
 C:\Users\DELL\Desktop\API\backend\src\Infrastructure\lexico\obj\Debug\net8.0\refint\Lexico.Infrastructure.dll
 C:\Users\DELL\Desktop\API\backend\src\Infrastructure\lexico\obj\Debug\net8.0\Lexico.Infrastructure.pdb
 C:\Users\DELL\Desktop\API\backend\src\Infrastructure\lexico\obj\Debug\net8.0\ref\Lexico.Infrastructure.dll
+C:\Users\DELL\Desktop\API\backend\src\Infrastructure\lexico\obj\Debug\net8.0\Lexico.Infrastructure.sourcelink.json

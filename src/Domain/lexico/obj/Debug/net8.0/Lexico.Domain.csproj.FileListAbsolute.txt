@@ -20,3 +20,4 @@ C:\Users\DELL\Desktop\API\backend\src\Domain\lexico\obj\Debug\net8.0\Lexico.Doma
 C:\Users\DELL\Desktop\API\backend\src\Domain\lexico\obj\Debug\net8.0\refint\Lexico.Domain.dll
 C:\Users\DELL\Desktop\API\backend\src\Domain\lexico\obj\Debug\net8.0\Lexico.Domain.pdb
 C:\Users\DELL\Desktop\API\backend\src\Domain\lexico\obj\Debug\net8.0\ref\Lexico.Domain.dll
+C:\Users\DELL\Desktop\API\backend\src\Domain\lexico\obj\Debug\net8.0\Lexico.Domain.sourcelink.json

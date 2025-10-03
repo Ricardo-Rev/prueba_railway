@@ -28,3 +28,4 @@ C:\Users\DELL\Desktop\API\backend\src\Application\lexico\obj\Debug\net8.0\Lexico
 C:\Users\DELL\Desktop\API\backend\src\Application\lexico\obj\Debug\net8.0\refint\Lexico.Application.dll
 C:\Users\DELL\Desktop\API\backend\src\Application\lexico\obj\Debug\net8.0\Lexico.Application.pdb
 C:\Users\DELL\Desktop\API\backend\src\Application\lexico\obj\Debug\net8.0\ref\Lexico.Application.dll
+C:\Users\DELL\Desktop\API\backend\src\Application\lexico\obj\Debug\net8.0\Lexico.Application.sourcelink.json
