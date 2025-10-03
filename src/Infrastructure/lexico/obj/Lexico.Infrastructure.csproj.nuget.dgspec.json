@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DELL\\Desktop\\API\\backend\\src\\Infrastructure\\lexico\\Lexico.Infrastructure.csproj": {}
+    "C:\\Users\\DELL\\Desktop\\backend\\src\\Infrastructure\\lexico\\Lexico.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DELL\\Desktop\\API\\backend\\src\\Application\\lexico\\Lexico.Application.csproj": {
+    "C:\\Users\\DELL\\Desktop\\backend\\src\\Application\\lexico\\Lexico.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\Desktop\\API\\backend\\src\\Application\\lexico\\Lexico.Application.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\Desktop\\backend\\src\\Application\\lexico\\Lexico.Application.csproj",
         "projectName": "Lexico.Application",
-        "projectPath": "C:\\Users\\DELL\\Desktop\\API\\backend\\src\\Application\\lexico\\Lexico.Application.csproj",
+        "projectPath": "C:\\Users\\DELL\\Desktop\\backend\\src\\Application\\lexico\\Lexico.Application.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\Desktop\\API\\backend\\src\\Application\\lexico\\obj\\",
+        "outputPath": "C:\\Users\\DELL\\Desktop\\backend\\src\\Application\\lexico\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\DELL\\Desktop\\API\\backend\\src\\Domain\\lexico\\Lexico.Domain.csproj": {
-                "projectPath": "C:\\Users\\DELL\\Desktop\\API\\backend\\src\\Domain\\lexico\\Lexico.Domain.csproj"
+              "C:\\Users\\DELL\\Desktop\\backend\\src\\Domain\\lexico\\Lexico.Domain.csproj": {
+                "projectPath": "C:\\Users\\DELL\\Desktop\\backend\\src\\Domain\\lexico\\Lexico.Domain.csproj"
               }
             }
           }
@@ -73,14 +73,14 @@
         }
       }
     },
-    "C:\\Users\\DELL\\Desktop\\API\\backend\\src\\Domain\\lexico\\Lexico.Domain.csproj": {
+    "C:\\Users\\DELL\\Desktop\\backend\\src\\Domain\\lexico\\Lexico.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\Desktop\\API\\backend\\src\\Domain\\lexico\\Lexico.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\Desktop\\backend\\src\\Domain\\lexico\\Lexico.Domain.csproj",
         "projectName": "Lexico.Domain",
-        "projectPath": "C:\\Users\\DELL\\Desktop\\API\\backend\\src\\Domain\\lexico\\Lexico.Domain.csproj",
+        "projectPath": "C:\\Users\\DELL\\Desktop\\backend\\src\\Domain\\lexico\\Lexico.Domain.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\Desktop\\API\\backend\\src\\Domain\\lexico\\obj\\",
+        "outputPath": "C:\\Users\\DELL\\Desktop\\backend\\src\\Domain\\lexico\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -138,14 +138,14 @@
         }
       }
     },
-    "C:\\Users\\DELL\\Desktop\\API\\backend\\src\\Infrastructure\\lexico\\Lexico.Infrastructure.csproj": {
+    "C:\\Users\\DELL\\Desktop\\backend\\src\\Infrastructure\\lexico\\Lexico.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\Desktop\\API\\backend\\src\\Infrastructure\\lexico\\Lexico.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\Desktop\\backend\\src\\Infrastructure\\lexico\\Lexico.Infrastructure.csproj",
         "projectName": "Lexico.Infrastructure",
-        "projectPath": "C:\\Users\\DELL\\Desktop\\API\\backend\\src\\Infrastructure\\lexico\\Lexico.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\DELL\\Desktop\\backend\\src\\Infrastructure\\lexico\\Lexico.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\Desktop\\API\\backend\\src\\Infrastructure\\lexico\\obj\\",
+        "outputPath": "C:\\Users\\DELL\\Desktop\\backend\\src\\Infrastructure\\lexico\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -167,11 +167,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\DELL\\Desktop\\API\\backend\\src\\Application\\lexico\\Lexico.Application.csproj": {
-                "projectPath": "C:\\Users\\DELL\\Desktop\\API\\backend\\src\\Application\\lexico\\Lexico.Application.csproj"
+              "C:\\Users\\DELL\\Desktop\\backend\\src\\Application\\lexico\\Lexico.Application.csproj": {
+                "projectPath": "C:\\Users\\DELL\\Desktop\\backend\\src\\Application\\lexico\\Lexico.Application.csproj"
               },
-              "C:\\Users\\DELL\\Desktop\\API\\backend\\src\\Domain\\lexico\\Lexico.Domain.csproj": {
-                "projectPath": "C:\\Users\\DELL\\Desktop\\API\\backend\\src\\Domain\\lexico\\Lexico.Domain.csproj"
+              "C:\\Users\\DELL\\Desktop\\backend\\src\\Domain\\lexico\\Lexico.Domain.csproj": {
+                "projectPath": "C:\\Users\\DELL\\Desktop\\backend\\src\\Domain\\lexico\\Lexico.Domain.csproj"
               }
             }
           }
