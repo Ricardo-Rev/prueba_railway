@@ -72,7 +72,7 @@ builder.WebHost.ConfigureKestrel(options =>
 });
 
 // -----------------------------------------------------------------------------
-// Servicios (Dapper + repos + servicio de análisis)
+// Servicios (Dapper + repos + servicio de análisis / subida)
 // -----------------------------------------------------------------------------
 builder.Services.AddSingleton<DapperConnectionFactory>();
 
@@ -82,13 +82,23 @@ builder.Services.AddScoped<IAnalisisRepository, AnalisisRepository>();
 builder.Services.AddScoped<ILogProcesamientoRepository, LogProcesamientoRepository>();
 builder.Services.AddScoped<IConfiguracionAnalisisRepository, ConfiguracionAnalisisRepository>();
 
-// ⬇️ REGISTRO CLAVE: interfaz -> implementación
+// Servicio principal de análisis (interfaz -> implementación)
 builder.Services.AddScoped<IAnalysisService, AnalysisService>();
 
-// (Si tenías esta línea antes, ya no es necesaria y puede provocar doble registro):
-// builder.Services.AddScoped<AnalysisService>();
+// ⬇️ NUEVO: servicio de subida directo (resuelve el 501 del upload)
+builder.Services.AddScoped<IUploadDocumentoService, UploadDocumentoService>();
 
-builder.Services.AddControllers();
+// Controllers (opcional: JSON sin camelCase y sin nulls)
+builder.Services
+    .AddControllers()
+    .AddJsonOptions(o =>
+    {
+        // Respeta los nombres de tus DTO/entidades
+        o.JsonSerializerOptions.PropertyNamingPolicy = null;
+        // Omite nulls en respuestas
+        o.JsonSerializerOptions.DefaultIgnoreCondition =
+            System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingNull;
+    });
 
 var app = builder.Build();
 
