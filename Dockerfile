@@ -1,33 +1,26 @@
-# =========================
-# Etapa de build (SDK 8.0)
-# =========================
+# Dockerfile - ASP.NET Core 8 API (Lexico)
+# Etapa base (runtime)
+FROM mcr.microsoft.com/dotnet/aspnet:8.0-bookworm-slim AS base
+WORKDIR /app
+# Railway provee PORT dinámico. Para local, mapea 8080.
+EXPOSE 8080
+ENV ASPNETCORE_ENVIRONMENT=Production \
+    DOTNET_EnableDiagnostics=0
+
+# Etapa de build/publish
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
-
-# Copiamos proyectos para restaurar dependencias
-COPY global.sln ./
-COPY src/API/lexico/Lexico.API.csproj src/API/lexico/
-COPY src/Application/lexico/Lexico.Application.csproj src/Application/lexico/
-COPY src/Domain/lexico/Lexico.Domain.csproj src/Domain/lexico/
-COPY src/Infrastructure/lexico/Lexico.Infrastructure.csproj src/Infrastructure/lexico/
-
-RUN dotnet restore src/API/lexico/Lexico.API.csproj
-
-# Copiamos el resto del código y publicamos
+# Copiamos todo el repo (Dockerfile debe estar en la raíz del repo)
 COPY . .
-RUN dotnet publish src/API/lexico/Lexico.API.csproj -c Release -o /app/out
+# Restaurar dependencias
+RUN dotnet restore ./global.sln
+# Publicar (sin apphost para contenedores más ligeros)
+RUN dotnet publish ./src/API/lexico/Lexico.API.csproj -c Release -o /out /p:UseAppHost=false
 
-# =========================
-# Etapa final (ASP.NET 8)
-# =========================
-FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS final
+# Imagen final
+FROM base AS final
 WORKDIR /app
-
-# Para correr localmente con -p 8080:8080 (Railway inyecta $PORT)
-EXPOSE 8080
-
-# Copiamos artefactos publicados
-COPY --from=build /app/out ./
-
-# Importante: NO seteamos ASPNETCORE_URLS aquí.
-ENTRYPOINT ["dotnet", "Lexico.API.dll"]
+COPY --from=build /out ./
+# Valor por defecto para correr localmente: 8080
+ENV PORT=8080
+ENTRYPOINT [ "dotnet", "Lexico.API.dll" ]

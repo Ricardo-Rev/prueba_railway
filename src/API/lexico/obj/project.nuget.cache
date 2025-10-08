@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UFhL8YbvXd0=",
+  "dgSpecHash": "SsniYWlksV8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\DELL\\Desktop\\backend\\src\\API\\lexico\\Lexico.API.csproj",
+  "projectFilePath": "C:\\Users\\DELL\\Desktop\\LexiCore.Api\\src\\API\\lexico\\Lexico.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL\\.nuget\\packages\\dapper\\2.1.66\\dapper.2.1.66.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.20\\microsoft.aspnetcore.openapi.8.0.20.nupkg.sha512",

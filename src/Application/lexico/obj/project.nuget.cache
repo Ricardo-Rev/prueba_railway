@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9B+Aa+hpk+g=",
+  "dgSpecHash": "G2nsSag4QNQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\DELL\\Desktop\\backend\\src\\Application\\lexico\\Lexico.Application.csproj",
+  "projectFilePath": "C:\\Users\\DELL\\Desktop\\LexiCore.Api\\src\\Application\\lexico\\Lexico.Application.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

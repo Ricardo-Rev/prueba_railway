@@ -1,12 +1,15 @@
+# Ignorar artefactos y archivos innecesarios
 **/bin/
 **/obj/
-**/out/
 **/.vs/
+**/.idea/
 **/.vscode/
-.git/
-.gitignore
-*.user
-*.suo
-*.log
-node_modules/
-Dockerfile
+**/*.user
+**/*.suo
+**/*.swp
+**/*.log
+**/*.tmp
+**/*.DS_Store
+
+.git
+*.zip
